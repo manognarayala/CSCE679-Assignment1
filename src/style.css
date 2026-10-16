@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 0 0 8px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 32px 0 8px;
+}
+
+.intro {
+  margin: 0 0 8px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.status {
+  color: #666;
+}
+
+.status.error {
+  color: #b00020;
+}
+
+.buttons {
+  display: flex;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.buttons button {
+  padding: 6px 14px;
+  font-size: 14px;
+  border: 1px solid #bbb;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #f2f2f2;
+}
+
+.buttons button.active {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}
+
+.key {
+  margin: 0 0 4px;
+  font-size: 14px;
+  color: #444;
+}
+
+.swatch {
+  display: inline-block;
+  width: 22px;
+  height: 3px;
+  margin: 0 4px 3px 10px;
+  vertical-align: middle;
+}
+
+.swatch:first-child {
+  margin-left: 0;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+svg text {
+  font-size: 12px;
+}
+
+.tooltip {
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  padding: 6px 10px;
+  font-size: 13px;
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
