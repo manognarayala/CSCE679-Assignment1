@@ -7,28 +7,6 @@ For this assignment I made a heatmap of the monthly temperature in Hong Kong usi
 - **Level 1:** a grid with years across and months down. The color of each box is the temperature.
 - **Level 2:** the same grid for the last 10 years, with a small line chart inside each box.
 
-## Output
-
-### Level 1
-
-Maximum temperature:
-
-![Level 1 maximum](outputs/level1_max.png)
-
-Minimum temperature:
-
-![Level 1 minimum](outputs/level1_min.png)
-
-### Level 2
-
-Maximum temperature:
-
-![Level 2 maximum](outputs/level2_max.png)
-
-Minimum temperature:
-
-![Level 2 minimum](outputs/level2_min.png)
-
 ## About the data
 
 I used the file `temperature_daily.csv`. It has the max and min temperature for every day from 1997 to October 2017.
@@ -40,7 +18,11 @@ For each month I picked two numbers:
 
 November and December 2017 are not in the file, so those two boxes are empty.
 
-## What I did
+## Colors
+
+I used 11 colors, from purple (cold) to dark red (hot). The range 0 to 40 Celsius is split into 11 equal parts, and each part has one color. The boxes and the legend use the same colors.
+
+## What I did and their outputs
 
 ### Level 1
 
@@ -49,6 +31,15 @@ November and December 2017 are not in the file, so those two boxes are empty.
 - **Tooltip:** when I hover over a box, it shows the date and both temperatures, like `Date: 2002-03, max: 28 min: 14`.
 - **Legend:** the color bar on the right goes from 0 Celsius (purple) at the top to 40 Celsius (dark red) at the bottom.
 
+#### Outputs:
+Maximum temperature:
+
+![Level 1 maximum](outputs/level1_max.png)
+
+Minimum temperature:
+
+![Level 1 minimum](outputs/level1_min.png)
+
 ### Level 2
 
 - **Same grid** as Level 1, but only for 2008 to 2017.
@@ -56,9 +47,15 @@ November and December 2017 are not in the file, so those two boxes are empty.
 - **Line chart:** left to right is the day of the month (1 to 31). Bottom to top is the temperature (0 to 40 Celsius). Every box uses the same scale, so they are easy to compare.
 - **Buttons, tooltip and legend** work the same as in Level 1.
 
-## Colors
+#### Outputs:
+Maximum temperature:
 
-I used 11 colors, from purple (cold) to dark red (hot). The range 0 to 40 Celsius is split into 11 equal parts, and each part has one color. The boxes and the legend use the same colors.
+![Level 2 maximum](outputs/level2_max.png)
+
+Minimum temperature:
+
+![Level 2 minimum](outputs/level2_min.png)
+
 
 ## Project files
 
