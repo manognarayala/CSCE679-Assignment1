@@ -1,6 +1,6 @@
-# Assignment 1 - Hong Kong Temperature Heatmap
+# CSCE 679 Data Visualization: Assignment 1 
 
-CSCE 679 Data Visualization
+Hong Kong Temperature Heatmap
 
 For this assignment I made a heatmap of the monthly temperature in Hong Kong using D3.js. There are two levels.
 
